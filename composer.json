@@ -1,0 +1,24 @@
+{
+    "name": "aecta/striker",
+    "description": "Creacion de un framework inspirado en Laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aecta\\Striker\\": "app/",
+            "config\\": "app/config/",
+            "controller\\": "app/controller/",
+            "model\\": "app/model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AngelCer3",
+            "email": "aectangel@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
